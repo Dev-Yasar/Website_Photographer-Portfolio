@@ -1,0 +1,351 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=WindSong:wght@400;500&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+body{
+    background-color: #002E2B;
+}
+.navSec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navContainer{
+    margin-top: 40px;
+    width: 90%;
+    display:flex;
+    justify-content: space-around;
+}
+.navLink1{
+    color: #FFEA98;
+    font-size: 20px;
+    font-family: 'Qwigley', cursive;
+}
+.navLink2{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+}
+.Banner{
+    position: absolute;
+    z-index: 2;
+    width: 90%;
+    height: 500px;
+    background-image: url(./Assets/banner.webp);
+    background-position: center;
+    background-size: cover;
+}
+.BannerBg{
+    position: absolute;
+    width: 100%;
+    height: 170px;
+    background-color: #FDC8BA;
+    z-index: 0;
+    top: 500px;
+}
+.BannerT1{
+    margin-left: 100px;
+    margin-top: 250px;
+    font-size: 30px;
+    font-family: 'WindSong', cursive;
+    color: white;
+}
+.BannerT2{
+    margin-left: 100px;
+    font-family: serif;
+    font-weight: lighter;
+    color: #FDC8BA;
+    font-size: 40px;
+
+}
+.BannerT2 span{
+    font-family: serif;
+    font-weight: lighter;
+    display: block;
+    
+}
+.Part3{
+    margin-top: 600px;
+   width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.HolderMain{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+.subImgHolder{
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+
+}
+.subImg{
+    width: 100%;
+    height: auto;
+
+}
+.part3T1{
+    font-family: serif;
+    font-weight: lighter;
+    color: rgba(255, 248, 248, 0.637);
+    margin-top: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.part3T1 span{
+    font-family: serif;
+    font-weight: lighter;
+    display: block;
+    text-align: center;
+    
+}
+.part3T2{
+    text-transform: uppercase;
+    font-family: serif;
+    font-weight: lighter;
+    font-size: 70px;
+    color: #FDC8BA;
+}
+.part3T3{
+    font-family: 'WindSong', cursive;
+    color: #FDC8BA;
+    font-size: 30px;
+    margin-top: -14px;
+    margin-left: 200px;
+    text-transform: capitalize;
+}
+.part3T4{
+    text-transform: uppercase;
+    color: white;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    font-size: 10px;
+}
+.part3btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 8px 40px; 
+    transition: all 0.5s ease-in-out;
+
+}
+.part3btn:hover{
+    background-color: #FDC8BA;
+    color: #002E2B;
+
+}
+/* part4 */
+
+.Part4{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.portfolioSec{
+    width: 90%;
+    height: 400px;
+    display: flex;
+
+}
+.Shoot{
+    width: 50%;
+    height: 100%;
+    background-color: brown;
+    background-image: url(./Assets/shoot.jpg);
+    background-size: cover;
+
+}
+.Service-links{
+    width: 50%;
+    height: 100%;
+    background-color:#FDC8BA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Service-link{
+    width: 100%;
+    height: 50px;
+    background-color: #ffe9e3;
+    margin: 20px 0;
+    font-family: serif;
+    font-weight: lighter;
+    color: #002E2B;
+    text-transform: uppercase;
+    font-size: 30px;
+   display: flex;
+   justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+.BtnContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.portfolio-btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #002E2B;
+    background-color: transparent;
+    color: #002E2B;
+    padding: 8px 40px; 
+    transition: all 0.5s ease-in-out;
+}
+.portfolio-btn:hover{
+background-color: #002E2B;
+color: white;
+}
+/* part 5 */
+.part-5{
+    display: flex;
+    justify-content: center;
+}
+.photoGrapher{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.sildes{
+    display: flex;
+}
+.profile{
+    width: 500px;
+    height: 600px;
+    background-image: url(./Assets/vikram.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.slide1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.part5t1{
+    font-family: 'Qwigley', cursive;
+    color: #FFEA98;
+    font-size: 50px;
+}
+.part5t2{
+    font-family: serif;
+    font-weight: lighter;
+    color: #FDC8BA;
+    font-size: 70px;
+
+}
+.part5t3{
+    font-family: serif;
+    font-weight: lighter;
+    color: rgba(255, 248, 248, 0.637);
+    margin-top: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+  
+}
+.fa-arrow-right{
+    color: white;
+    margin-left: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.part5t3 span{
+    font-family: serif;
+    font-weight: lighter;
+    display: block;
+    
+}
+.part5p{
+    width: 90%;
+    color: #FDC8BA;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-align: left;
+}
+.meetbtn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 8px 40px; 
+    transition: all 0.5s ease-in-out;
+    margin-top: -10px;
+}
+.meetbtn:hover{
+    background-color: #FDC8BA;
+    color: #002E2B;
+    border-color: #FDC8BA;
+}
+.slide2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+/* Part6 */
+.Part6{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    position: relative;
+
+}
+.footerbg{
+    width: 100%;
+    height: 600px;
+   
+    background-image: url(./Assets/footerbg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+ 
+}
+.overley{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    z-index: 1;
+}
+.footerT{
+    width: 40%;
+    position: absolute;
+  z-index: 2;
+  top: 300px;
+ 
+}
+.footerT1{
+  color: #FDC8BA;
+    font-family: 'Qwigley', cursive;
+    font-size: 40px;
+}
+.footerT2{
+    color: white;
+    position: absolute;
+    right: 100px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
